@@ -11,7 +11,7 @@ This repository does the following tasks.
 5. Applying semantic labels on the pointcloud and registering multiple pointclouds using ICP based registration(run ```python src/pointcloud_segmentation.py```).
 
 ## Dependencies
-Refer to [this page](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to install openMMlab's segmentation repository. Download and paste the desired model in the config folder. Change the ```segment_image.py``` file accordingly  Install OpenCV on python.
+Refer to [this page](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to install openMMlab's segmentation repository. Download and paste the desired model in the config folder. Change the ```segment_image.py``` file accordingly. Install OpenCV on python.
 
 ## Run instructions
 1. To run the complete pipeline with segmentation and ICP registration:
