@@ -1,5 +1,7 @@
 # Pointcloud-Segmentation
 
+<img src="media/pcdregistration.gif" align="center" alt="registration" width="800" title="ICP Registration Demo"/>
+
 ## Overview
 In this project, I used [Kitti360](https://www.cvlibs.net/datasets/kitti-360/demo.php) dataset to give pointcloud semantic labels using segmentation obtained from a camera image of the scene. I used an implementation of segformer to generate semantic labels on the image. After applying semantic labels on multiple pointclouds, I used ICP registration to generate the mapping of the complete scene.
 
