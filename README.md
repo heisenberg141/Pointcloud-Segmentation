@@ -33,8 +33,9 @@ with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.ed
 <!-- <img src="media/BigPointcloud.png" align="center" alt="Original Pointcloud" width="800"/>  -->
 ![Original Pointcloud](media/BigPointcloud.png)
 *Figure 1: Original Pointcloud*
-<img src="Results/color_gradient_maps/1.jpg" align="center" alt="PBLite" width="400"/>
-The algorithm of PBLite detection is shown below:
+
+![Poincloud Projection on Image Plane](media/PcdProjection.png)
+*Poincloud Projection on Image Plane*
 
 <img src="Results/hw0.png" align="center" alt="PBLite"/>
 
