@@ -43,7 +43,7 @@ with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.ed
 *Figure 4: Segmented Pointcloud*
 
 <!-- ![Registration](media/pcdregistration.gif) -->
-<img src="media/pcdregistration" align="center" alt="registration" width="800"/> 
+<img src="media/pcdregistration.gif" align="center" alt="registration" width="800"/> 
 *Figure 5: ICP registration Demo*
 
 
