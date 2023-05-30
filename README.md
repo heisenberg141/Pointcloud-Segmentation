@@ -45,7 +45,7 @@ with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.ed
 <!-- ![Registration](media/pcdregistration.gif) -->
 <img src="media/pcdregistration.gif" align="center" alt="registration" width="800" title="ICP Registration Demo"/>
 
-*ICP Registration demo*
+*Figure 5: ICP Registration demo*
  
 
 
