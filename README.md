@@ -30,7 +30,6 @@ This repository consists of comparison of baseline edge detection algorithms lik
 
 with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/amfm_pami2010.pdf). A simpler version of PB algorithm has been implemented which considers texture, color and intensity discontinuities. This algorithm predicts per pixel probability of the boundary detected. The original image and the output of implementation is shown below:
 
-<!-- <img src="media/BigPointcloud.png" align="center" alt="Original Pointcloud" width="800"/>  -->
 ![Original Pointcloud](media/BigPointcloud.png)
 *Figure 1: Original Pointcloud*
 
@@ -43,8 +42,8 @@ with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.ed
 ![Segmented Pointcloud](media/PcdSegmentation.png)
 *Figure 4: Segmented Pointcloud*
 
-![Registration](media/pcdregistration.gif)
-
+<!-- ![Registration](media/pcdregistration.gif) -->
+<img src="media/pcdregistration" align="center" alt="registration" width="800"/> 
 *Figure 5: ICP registration Demo*
 
 
