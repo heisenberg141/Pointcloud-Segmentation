@@ -11,9 +11,21 @@ This repository does the following tasks.
 5. Applying semantic labels on the pointcloud and registering multiple pointclouds using ICP based registration(run ```python src/pointcloud_segmentation.py```).
 
 ## Dependencies
-Refer to [this page](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to install openMMlab's segmentation repository. Install OpenCV on python.
+Refer to [this page](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to install openMMlab's segmentation repository.  Install OpenCV on python.
 
 ## Run instructions
+1. To run the complete pipeline with segmentation and ICP registration:
+``` 
+python src/pointcloud_segmentation.py 
+```
+2. To generate colored pointcloud:
+```
+python src/gen_color_pcd.py 
+```
+3. To project lidar points onto the image:
+```
+python src/utils.py 
+```
 This repository consists of comparison of baseline edge detection algorithms like Canny and Sobel.
 
 with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/amfm_pami2010.pdf). A simpler version of PB algorithm has been implemented which considers texture, color and intensity discontinuities. This algorithm predicts per pixel probability of the boundary detected. The original image and the output of implementation is shown below:
