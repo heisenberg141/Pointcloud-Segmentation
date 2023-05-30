@@ -35,7 +35,17 @@ with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.ed
 *Figure 1: Original Pointcloud*
 
 ![Poincloud Projection on Image Plane](media/PcdProjection.png)
-*Poincloud Projection on Image Plane*
+*Figure 2: Poincloud Projection on Image Plane*
+
+![Colored Pointcloud](media/ColoredPointcloud.png)
+*Figure 3: Colored Pointcloud*
+
+![Segmented Pointcloud](media/PcdSegmentation.png)
+*Figure 4: Segmented Pointcloud*
+
+![Registration](media/pcdregistration.gif)
+*Figure 5: ICP registration Demo*
+
 
 <img src="Results/hw0.png" align="center" alt="PBLite"/>
 
