@@ -30,7 +30,7 @@ This repository consists of comparison of baseline edge detection algorithms lik
 
 with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/amfm_pami2010.pdf). A simpler version of PB algorithm has been implemented which considers texture, color and intensity discontinuities. This algorithm predicts per pixel probability of the boundary detected. The original image and the output of implementation is shown below:
 
-<img src="BSDS500/Images/1.jpg" align="center" alt="Original" width="400"/> <img src="Results/color_gradient_maps/1.jpg" align="center" alt="PBLite" width="400"/>
+<img src="media/BigPointcloud.png" align="center" alt="Original Pointcloud" width="800"/> <img src="Results/color_gradient_maps/1.jpg" align="center" alt="PBLite" width="400"/>
 
 The algorithm of PBLite detection is shown below:
 
