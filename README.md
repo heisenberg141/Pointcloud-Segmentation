@@ -6,9 +6,9 @@ In this project, I used [Kitti360](https://www.cvlibs.net/datasets/kitti-360/dem
 This repository does the following tasks.
 1. Intrinsic calibration of perspective camera (Point Gray Flea 2).
 2. Extrinsic calibration of the perspective camera with a Velodyne Lidar (HDL-64E).
-3. Projecting lidar points on to the image plane (run src/utils.py).
-4. Generating a colored pointcloud (run src/gen_color_pcd.py).
-5. Applying semantic labels on the pointcloud and registering multiple pointclouds using ICP based registration(run src/pointcloud_segmentation.py).
+3. Projecting lidar points on to the image plane (run ```python src/utils.py```).
+4. Generating a colored pointcloud (run ```python src/gen_color_pcd.py```).
+5. Applying semantic labels on the pointcloud and registering multiple pointclouds using ICP based registration(run ```python src/pointcloud_segmentation.py```).
 
 This repository consists of comparison of baseline edge detection algorithms like Canny and Sobel.
 
